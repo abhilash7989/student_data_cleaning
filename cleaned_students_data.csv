@@ -1,0 +1,31 @@
+student_id,name,age,gender,grade,math_score,english_score,science_score,enrolled_date,remarks
+100,Jane Smith,16.0,Female,11,75.0,78.14285714285714,66,2022-06-10,Excellent
+101,John Doe,16.0,Male,10,74.0,95.0,94,2022-06-10,Good
+102,Chris P.,17.0,Male,10,74.0,78.14285714285714,69,2022-06-12,Needs Improvement
+103,Jane Smith,16.0,Female,10,74.0,78.14285714285714,62,2022-06-10,Average
+104,Sara O'Neil,16.0,Male,11,74.0,96.0,64,2022-06-10,Good
+105,Mike O’Reilly,16.0,Female,10,74.0,78.14285714285714,83,2022-06-12,Needs Improvement
+106,Ali Khan,17.0,Female,11,64.0,78.14285714285714,75,2022-06-12,Good
+107,Sara O'Neil,17.0,Female,12,74.0,63.0,62,2022-06-11,Excellent
+108,Mike O’Reilly,16.0,Female,12,80.0,78.14285714285714,89,2022-06-12,Poor
+109,Robert Brown,17.0,Female,12,74.0,78.14285714285714,97,2022-06-10,Needs Improvement
+110,Lucy Gray,17.0,Male,11,65.0,67.0,100,2022-06-12,Excellent
+111,Simran Singh,16.0,Female,11,74.0,78.14285714285714,95,2022-06-10,Average
+112,Patel R.,17.0,Female,11,74.0,87.0,89,2022-06-10,Poor
+113,Patel R.,17.0,Male,10,74.0,78.14285714285714,98,2022-06-12,Average
+114,Ali Khan,17.0,Male,12,74.0,91.0,67,2022-06-11,Poor
+115,Lucy Gray,16.0,Female,12,65.0,91.0,94,2022-06-12,Average
+116,Chris P.,17.0,Female,11,74.0,78.14285714285714,72,2022-06-11,Excellent
+117,Ali Khan,18.0,Male,11,67.0,74.0,81,2022-06-10,Good
+118,Simran Singh,17.0,Male,10,100.0,74.0,62,2022-06-11,Average
+119,Patel R.,17.0,Male,11,73.0,78.14285714285714,90,2022-06-12,Good
+120,Sara O'Neil,17.0,Male,10,74.0,78.14285714285714,89,2022-06-10,Average
+121,John Doe,18.0,Female,11,66.0,72.0,94,2022-06-10,Average
+122,Sara O'Neil,17.0,Male,11,75.0,78.14285714285714,66,2022-06-10,good student
+123,Jane Smith,17.0,Female,11,74.0,78.14285714285714,63,2022-06-12,Excellent
+124,John Doe,18.0,Male,11,74.0,78.14285714285714,91,2022-06-12,Good
+125,Mike O’Reilly,17.0,Male,12,94.0,80.0,63,2022-06-10,Average
+126,John Doe,17.0,Male,10,64.0,78.14285714285714,67,2022-06-12,good student
+127,Simran Singh,16.0,Female,12,74.0,76.0,80,2022-06-12,Poor
+128,Sara O'Neil,17.0,Female,11,74.0,64.0,89,2022-06-10,Average
+129,Patel R.,17.0,Male,11,74.0,64.0,83,2022-06-11,Average
