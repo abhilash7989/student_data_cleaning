@@ -66,4 +66,25 @@ df.loc[:,"remarks"]=df["remarks"].replace(dict_remark)
 #show cleaned data
 print(df.info())
 print(df.head())
+
 print(df)
+# Save output safely
+# -----------------------------
+# Define folder and create if missing
+folder = r"C:\Users\Abhilash\Documents\PythonProjects"
+os.makedirs(folder, exist_ok=True)
+
+# Save as CSV
+csv_path = os.path.join(folder, "cleaned_students_data.csv")
+df.to_csv(csv_path, index=False)
+
+# Save a summary as a text file
+summary_path = os.path.join(folder, "cleaned_students_summary.txt")
+with open(summary_path, "w") as f:
+    df.info(buf=f)               # DataFrame info
+    f.write("\n\nFirst 5 rows:\n")
+    f.write(df.head().to_string())
+    f.write("\n\nFull Data:\n")
+    f.write(df.to_string())
+
+print(f"\n✅ Cleaned data saved to:\n{csv_path}\n✅ Summary saved to:\n{summary_path}")
