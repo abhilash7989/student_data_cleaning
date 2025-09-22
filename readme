@@ -1,0 +1,69 @@
+
+# 🧹 Student Data Cleaning Project
+
+## 📖 Overview
+This project cleans and standardizes a **student dataset** using **Python** and **Pandas**.  
+It removes duplicates, fills missing values, standardizes text formatting, converts dates to a consistent format, and saves the cleaned data for analysis.
+
+---
+
+## 🛠 Features
+- ✅ Remove duplicate records  
+- ✅ Handle missing values (mean imputation for `age`, `math_score`, and `english_score`)  
+- ✅ Standardize column formats:
+  - Capitalize `name` and `gender`
+  - Convert `grade` values to a consistent format  
+  - Convert `enrolled_date` to `YYYY-MM-DD`  
+  - Normalize `remarks` (e.g., `excellent` → `Excellent`)  
+- ✅ Save the cleaned dataset as a CSV file  
+- ✅ Save a text summary (`DataFrame.info`, sample rows, and full data snapshot)
+
+---
+
+## 📂 Files in This Repository
+| File Name                   | Description                          |
+|-----------------------------|--------------------------------------|
+| `clean_students_data.py`    | Main Python script for cleaning data |
+| `cleaned_students_data.csv` | Cleaned dataset output (generated)   |
+| `cleaned_students_summary.txt` | Summary of cleaned data (generated) |
+| `README.md`                 | Project documentation (this file)   |
+
+---
+
+## ▶️ How to Run
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/student-data-cleaning.git
+   cd student-data-cleaning
+   ```
+2. **Install dependencies**  
+   Ensure you have Python and Pandas installed:  
+   ```bash
+   pip install pandas
+   ```
+3. **Run the script**  
+   ```bash
+   python clean_students_data.py
+   ```
+4. **Find the output**  
+   - Cleaned CSV: `cleaned_students_data.csv`  
+   - Summary file: `cleaned_students_summary.txt`
+
+---
+
+## 📊 Example Output
+| name       | age | gender | grade | math_score | english_score | enrolled_date | remarks          |
+|-------------|-----|--------|-------|------------|---------------|---------------|-----------------|
+| John Smith  | 16  | Male   | 10    | 85.0       | 78.0          | 2022-06-10    | Excellent       |
+| Alice Brown | 15  | Female | 11    | 90.0       | 82.5          | 2022-06-11    | Good            |
+
+---
+
+## 👨‍💻 Author
+**Abhilash**  
+📧 Email: **abhilashabhi4246@gmail.com**  
+🔗 LinkedIn: www.linkedin.com/in/abhilash-abhi-b7415a25a
+
+
+
+
